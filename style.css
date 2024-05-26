@@ -90,6 +90,8 @@ section.info-section {
 .info-section h2 {
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
+    padding-left: 20PX;
     
 }
 
@@ -103,16 +105,14 @@ section.info-section {
 }
 
 .info-item{
-    /* display:flex;
-    flex-direction: column;
-    align-items: center; */
-   
+ /* text-align: center; */
+
 }
 
 
 .info-item img {
-    width: 150px; 
-    height: 140px; 
+    width: 100px; 
+    height: 100px; 
     border-radius: 7px;
 
 }
@@ -152,8 +152,6 @@ footer.container {
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-
-   
     background-color: #3882f6;
     padding: 30px;
     margin: 70px;
