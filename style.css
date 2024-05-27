@@ -27,7 +27,7 @@ header {
 nav {
     
     display: flex;
-    gap: 30px
+    gap: 20px
 }
 
 a {
@@ -44,10 +44,6 @@ section.hero {
 
 }
 
-.content {
-    /* display; flex;
-    flex-wrap: wrap; */
-}
 
 .hero h1 {
     font-size: 48px;
@@ -68,11 +64,6 @@ section.hero {
     border-radius: 7px;
 }
 
-
-.hero .placeholder-image{ 
- /* display: flex;
-margin-left: auto; */
-}
 
 .hero img {
     max-width: 400px;
@@ -182,9 +173,7 @@ footer.container {
     background-color: #3882f6;
     border: 2px solid whitesmoke;
     padding: 5px 20px;
-    border-radius: 7px;
-
-   
+    border-radius: 7px;  
 }
 
 footer {
@@ -203,13 +192,19 @@ footer p {
         flex-direction: column;
         text-align: center;
     }
+    
+    .header-logo {
+        margin-right: 100px;
+    }
 
     .hero button {
         margin-bottom: 10px;
     }
+
     .hero h1 {
         line-height: 0.9;
     }
+
     .hero p{
         padding-bottom: 20px;
     }
@@ -218,9 +213,8 @@ footer p {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-
-
     }
+
 
 }
 
